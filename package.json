@@ -1,0 +1,20 @@
+{
+  "name": "JSPrac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikedvs/JSPrac.git"
+  },
+  "keywords": [],
+  "author": "Michael Maliniak <michael.maliniak@news.com.au>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikedvs/JSPrac/issues"
+  },
+  "homepage": "https://github.com/mikedvs/JSPrac#readme"
+}

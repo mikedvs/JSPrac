@@ -1,0 +1,31 @@
+/*Avaliable Google Fonts
+    * font-family: 'Open Sans', sans-serif;
+    * font-family: 'Lato', sans-serif;
+    * font-family: 'Abril Fatface', cursive;
+*/
+
+html {
+     font-family: 'Lato', sans-serif;
+     color: whitesmoke;   
+}
+
+body {
+    background: #FF5252;
+    padding:1em;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.bolder {
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    color: #333;
+}
+
+p {
+    padding-bottom: 2em;
+    border-bottom: 2px solid whitesmoke;
+}
