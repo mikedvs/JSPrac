@@ -27,3 +27,28 @@ var john = {
 
 john.__proto__ = person;
 
+for (var prop in john) {
+    if (john.hasOwnProperty(prop)) {
+        console.log(prop + ': ' + john[prop]);
+    }
+}
+
+var jane = {
+    address: "Jane",
+    getFormalFullName: function () {
+        return this.lastname + ', ' + this.firstname;
+    }
+}
+
+var jim = {
+    getFirstlName: function () {
+        return this.firstname;
+    }
+}
+
+// Extend using Underscore.
+
+_.extend(john, jane, jim);
+
+console.log(john);
+
