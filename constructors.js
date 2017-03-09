@@ -10,7 +10,19 @@ function Person(name) {
     console.log('so you need to be careful as each invocation runs the function, creates a new object etc.');
 }
 
-var john = new Person('John');
+var John = new Person('John');
 
-var john = new Person('jane');
+var Jane = new Person('jane');
+
+Person.prototype.getFullName = function() {
+    return this.firstname + ' ' + this.lastname;
+}
+
+Person.prototype.getFormalFullName = function() {
+    return this.lastname + ', ' + this.firstname;
+}
+
+console.log(Jane.getFullName());
+
+console.log(John.getFormalFullName());
 
