@@ -1,11 +1,16 @@
-function Person() {
+// Calling a function to specifically create an object
+// is called a funciton constructor!
+
+function Person(name) {
 
     console.log(this);
-    this.firstname = 'John';
+    this.firstname = name;
     this.lastname = 'Doe';
-
+    console.log('this is being invoked when creating a new object:' + name);
+    console.log('so you need to be careful as each invocation runs the function, creates a new object etc.');
 }
 
-var john = new Person();
+var john = new Person('John');
 
-console.log(john);
+var john = new Person('jane');
+
