@@ -1,0 +1,1 @@
+var q = $("ul.people").addClass("newclass").removeClass("people");
